@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
-import Layout from '../layouts/Default'
+import styles from '@styles/Home.module.sass'
+import Layout from '@layouts/Default.layout'
 
 const Home: NextPage = () => {
   return (
     <Layout title="Hem">
-      <h1>Hello</h1>
+      
     </Layout>
   )
 }
